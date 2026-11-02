@@ -1,104 +1,127 @@
-# 🛡️ Network-AI
-### Intelligent Network Monitoring & Threat Detection Platform
+# 🛡️ NETWORK AI
+
+### Intelligent Network Security & Threat Detection Platform
 
 <p align="center">
-  <strong>REAL-TIME NETWORK SECURITY • AI-POWERED ANALYTICS • SYSTEM INTELLIGENCE</strong>
+  <img src="https://img.shields.io/badge/AI-Powered-8A2BE2?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Cybersecurity-Intelligence-00BFFF?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Backend-FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
+  <img src="https://img.shields.io/badge/Frontend-React-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Project-Network--AI-00C7B7?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Python-3.13-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/React-TypeScript-3178C6?style=for-the-badge&logo=react&logoColor=white" />
-  <img src="https://img.shields.io/badge/FastAPI-Backend-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
-  <img src="https://img.shields.io/badge/Status-In%20Development-orange?style=for-the-badge" />
+  <b>Monitor Networks. Detect Threats. Protect Digital Infrastructure.</b>
 </p>
 
 ---
 
-## 🌐 Overview
+## 🚀 Overview
 
-**Network-AI** is an intelligent network monitoring and security analysis platform designed to provide real-time visibility into system performance, network activity, and potential security indicators.
+**Network AI** is an intelligent network security and monitoring platform designed to analyze network activity, monitor system performance, and identify potentially suspicious connections using machine learning and rule-based detection techniques.
 
-The platform combines a modern React dashboard, a Python FastAPI backend, and machine-learning-based anomaly detection to help users monitor network behavior and investigate unusual activity.
+The platform combines real-time system monitoring, network connection analysis, anomaly detection, and security reporting into a unified cybersecurity workspace.
 
-It is being developed as a 15-day engineering project with a focus on practical cybersecurity, network intelligence, and AI-assisted analysis.
+Built with React, TypeScript, Python, FastAPI, and Scikit-learn, Network AI aims to simplify network security monitoring through intelligent analysis and an intuitive dashboard.
 
 ## ✨ Key Features
 
-### 📊 Real-Time System Monitoring
+### 📊 1. Intelligent Network Dashboard
 - Live CPU utilization monitoring.
-- Memory usage tracking.
-- Disk utilization monitoring.
-- System uptime and device information.
-- Automatic dashboard refresh.
+- Memory and disk usage tracking.
+- System health information.
+- Network interface monitoring.
+- Automatic dashboard refresh every 5 seconds.
 
-### 🌐 Network Intelligence
-- Network interface discovery.
-- Active and inactive interface monitoring.
+### 🛡️ 2. Threat Detection Engine
+- Rule-based suspicious connection detection.
+- Process-level connection analysis.
+- Remote IP and port monitoring.
+- Threat severity classification.
+- Security indicator visualization.
+
+### 🤖 3. Machine Learning Anomaly Detection
+- Isolation Forest-based anomaly detection.
+- Identification of unusual network activity.
+- Automated analysis of network-related data.
+- Foundation for advanced behavioral detection.
+
+### 🌐 4. Network Monitoring
+- Active network connection monitoring.
+- Network interface information.
 - Incoming and outgoing traffic statistics.
-- Network connection inspection.
-- Process-level connection visibility.
+- Connection activity analysis.
 
-### 🧠 AI-Based Anomaly Detection
-- Isolation Forest machine learning model.
-- Anomaly scoring.
-- Normal and unusual activity classification.
-- AI-assisted network behavior analysis.
+### 🔍 5. Connection Risk Analysis
+- Local and remote connection inspection.
+- Process identification.
+- Port-level analysis.
+- Suspicious connection assessment.
 
-### 🔍 Security Threat Analysis
-- Rule-based connection risk analysis.
-- High, medium, and low severity indicators.
-- Listening port inspection.
-- Security review status.
-- Investigation-focused findings.
+### 📑 6. Security Reporting
+- Automated security report generation.
+- JSON-based report storage.
+- Structured security findings.
+- Monitoring and detection information.
 
-### 📄 Security Reporting
-- Automated JSON security report generation.
-- Network connection analysis results.
-- Security findings and severity information.
-- Structured reporting for further investigation.
+## 🖥️ Dashboard Modules
 
-> **Security note:** Detected indicators are signals for investigation, not proof of malicious activity. Machine-learning predictions and rule-based findings should be validated before taking security actions.
+| Module | Description |
+|---|---|
+| Overview | System health and security dashboard |
+| Network Monitor | Network activity and interface monitoring |
+| Threat Detection | Suspicious connection identification |
+| Network Interfaces | Interface and system information |
+
+## 🛠️ Technology Stack
+
+| Category | Technologies |
+|---|---|
+| Frontend | React, TypeScript |
+| Build Tool | Vite |
+| Styling | Tailwind CSS |
+| Backend | Python, FastAPI |
+| Machine Learning | Scikit-learn |
+| Anomaly Detection | Isolation Forest |
+| Network Analysis | Python Network Monitoring |
+| Data Visualization | Recharts |
+| API Communication | REST API |
+| Development | VS Code, Git, GitHub |
 
 ## 🏗️ System Architecture
 
 ```text
-                 NETWORK-AI PLATFORM
-                         |
-          +--------------+--------------+
-          |                             |
-    REACT FRONTEND                 FASTAPI BACKEND
-    TypeScript + Vite              Python
-          |                             |
-          |                       REST API Layer
-          |                             |
-          |              +--------------+-------------+
-          |              |              |             |
-          |         Monitoring    Network Analysis   AI Engine
-          |              |              |             |
-          |          System Data   Connections   Isolation Forest
-          |              |              |             |
-          +--------------+--------------+-------------+
-                         |
-                 Security Analysis
-                         |
-                 Report Generation
+                 NETWORK AI
+                      |
+          +-----------+-----------+
+          |                       |
+      FRONTEND                 BACKEND
+          |                       |
+   React + TypeScript          FastAPI
+          |                       |
+   Security Dashboard       API Services
+          |                       |
+   +------+------+         +------+------+
+   |      |      |         |      |      |
+Overview Network Threat  Monitor Detection Reports
+          |                       |
+          +-----------+-----------+
+                      |
+              ANALYSIS ENGINE
+                      |
+             +--------+--------+
+             |                 |
+        Rule-Based         Machine Learning
+        Detection          Isolation Forest
+             |                 |
+             +--------+--------+
+                      |
+              Security Insights
+                      |
+               JSON Reports
 ```
 
-## 🧰 Technology Stack
-
-| Layer | Technologies |
-|---|---|
-| Frontend | React, TypeScript, Vite |
-| UI & Visualization | CSS, Lucide React, Recharts |
-| Backend | Python, FastAPI |
-| API Server | Uvicorn |
-| System Monitoring | psutil |
-| Machine Learning | Scikit-learn, Isolation Forest |
-| Data Validation | Pydantic |
-| Reporting | JSON |
-
-## 📁 Project Structure
+## 📂 Project Structure
 
 ```text
 Network-AI/
@@ -106,43 +129,32 @@ Network-AI/
 ├── frontend/
 │   ├── public/
 │   ├── src/
-│   │   ├── features/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   ├── services/
 │   │   ├── App.tsx
-│   │   └── ...
+│   │   ├── main.tsx
+│   │   └── index.css
 │   ├── package.json
-│   └── index.html
+│   ├── package-lock.json
+│   └── vite.config.ts
 │
 ├── backend/
 │   ├── app/
-│   │   ├── ai/
-│   │   │   ├── anomaly_detector.py
-│   │   │   └── ml_detector.py
-│   │   │
 │   │   ├── api/
-│   │   │   └── monitoring.py
-│   │   │
-│   │   ├── network/
-│   │   │   ├── connection_monitor.py
-│   │   │   └── network_monitor.py
-│   │   │
-│   │   ├── security/
-│   │   │   └── connection_risk.py
-│   │   │
+│   │   ├── core/
+│   │   ├── models/
+│   │   ├── schemas/
 │   │   ├── services/
-│   │   │   └── security_report.py
-│   │   │
-│   │   └── main.py
-│   │
-│   └── tests/
+│   │   ├── main.py
+│   │   └── ...
+│   └── requirements.txt
 │
-├── infrastructure/
-├── docs/
-├── reports/
 ├── .gitignore
 └── README.md
 ```
 
-*The structure above describes the main project organization; additional files and modules may be added during development.*
+*The structure above represents the main project architecture; retain the actual filenames and directories present in the repository.*
 
 ## ⚙️ Installation & Setup
 
@@ -151,115 +163,133 @@ Network-AI/
 - Python 3.13+
 - Node.js and npm
 - Git
-- Windows, Linux, or macOS (platform-specific monitoring capabilities may vary)
+- Visual Studio Code
 
-### 1. Clone the Repository
+### 1. Clone Repository
 
-```bash
+```powershell
 git clone https://github.com/Alwin0606/Network-AI.git
+```
+
+### 2. Navigate to Project
+
+```powershell
 cd Network-AI
 ```
 
-### 2. Backend Setup
+### 3. Backend Setup
 
 ```powershell
-py -3.13 -m venv backend\.venv
+cd backend
+
+py -3.13 -m venv .venv
+
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
-.\backend\.venv\Scripts\Activate.ps1
-pip install -r backend\requirements.txt
+
+.\.venv\Scripts\Activate.ps1
+
+pip install -r requirements.txt
 ```
 
-### 3. Start the Backend
-
-Run from the project root:
+### 4. Start Backend Server
 
 ```powershell
-python -m uvicorn backend.app.main:app --reload --port 8000
+python -m uvicorn backend.app.main:app --reload
 ```
 
-Backend:
-`http://127.0.0.1:8000`
+If running from inside the backend directory, use the import path configured for that directory.
 
-API documentation:
-`http://127.0.0.1:8000/docs`
+Backend API:
 
-### 4. Frontend Setup
+```text
+http://127.0.0.1:8000
+```
 
-Open a second terminal:
+API Documentation:
+
+```text
+http://127.0.0.1:8000/docs
+```
+
+### 5. Frontend Setup
+
+Open another PowerShell terminal:
 
 ```powershell
 cd frontend
+
 npm install
+
 npm run dev
 ```
 
-Open the local URL displayed by Vite in your terminal.
+Frontend:
+
+```text
+http://localhost:5173
+```
 
 ## 🔌 API Endpoints
 
-| Endpoint | Purpose |
+| Endpoint | Function |
 |---|---|
-| `/api/v1/health` | Backend health check |
-| `/api/v1/monitoring` | System performance metrics |
-| `/api/v1/analyze` | System analysis |
-| `/api/v1/ml-detection` | ML anomaly detection |
-| `/api/v1/network-traffic` | Network interface statistics |
-| `/api/v1/connections` | Active network connections |
+| `/api/v1/health` | Backend health status |
+| `/api/v1/monitoring` | System performance monitoring |
+| `/api/v1/analyze` | Analysis operations |
+| `/api/v1/ml-detection` | Machine learning detection |
+| `/api/v1/network-traffic` | Network traffic information |
+| `/api/v1/connections` | Active connection information |
 | `/api/v1/security/connection-analysis` | Connection risk analysis |
-| `/api/v1/security/threats` | Security indicators |
-| `/api/v1/security/report` | Generate security report |
+| `/api/v1/security/report` | Security report generation |
 
-## 🧪 Current Development Progress
+## 🔐 Security & Reliability
 
-- [x] Frontend environment setup.
-- [x] Backend foundation.
-- [x] FastAPI service startup.
-- [x] System monitoring API.
-- [x] Network interface monitoring.
-- [x] Connection inspection.
-- [x] Isolation Forest anomaly detection integration.
-- [x] Rule-based security analysis.
-- [x] JSON security report generation.
-- [x] Initial frontend and backend integration.
-- [ ] Advanced threat intelligence.
-- [ ] Enhanced AI detection and validation.
-- [ ] Advanced dashboard improvements.
-- [ ] Performance and security hardening.
-- [ ] Final documentation and release testing.
+- Structured API architecture.
+- Input validation and error handling.
+- Separation of frontend and backend services.
+- Environment-based configuration.
+- Machine learning-assisted anomaly detection.
+- Security reporting and monitoring.
 
-## 🗺️ 15-Day Development Roadmap
+## 🗺️ Future Enhancements
 
-| Phase | Focus |
-|---|---|
-| Days 1–3 | Architecture and project foundation |
-| Days 4–6 | Network monitoring and connection analysis |
-| Days 7–9 | AI anomaly detection and threat intelligence |
-| Days 10–11 | Security reporting and backend enhancements |
-| Days 12–13 | Frontend integration and dashboard improvements |
-| Day 14 | Testing, performance and security improvements |
-| Day 15 | Documentation and final verification |
-
-## 🔐 Security & Responsible Use
-
-- Designed for authorized network and system monitoring.
-- Security indicators require human investigation.
-- Avoid exposing sensitive device and network information in public reports.
-- Never commit credentials, API keys, or private configuration files.
-- Run security testing only on systems and networks you are authorized to inspect.
+- [ ] Advanced real-time packet inspection.
+- [ ] Network device discovery.
+- [ ] IP reputation and threat intelligence integration.
+- [ ] Advanced behavioral threat detection.
+- [ ] Real-time security notifications.
+- [ ] Historical network analytics.
+- [ ] Advanced attack pattern recognition.
+- [ ] PostgreSQL integration.
+- [ ] Docker-based deployment.
+- [ ] Enterprise security management.
 
 ## 🎯 Project Vision
 
-The long-term goal of Network-AI is to evolve into an intelligent network security workspace that combines continuous monitoring, behavioral analytics, anomaly detection, and actionable security insights.
+Network AI aims to build an intelligent cybersecurity platform that helps identify unusual network behavior, improve visibility into system activity, and support faster security investigations.
 
-## 👨‍💻 Author
+The long-term vision is to evolve into a scalable network security intelligence solution.
+
+## ⚠️ Disclaimer
+
+Network AI is developed for educational, research, and authorized network security monitoring purposes. Users must obtain appropriate authorization before monitoring or analyzing networks and systems. Anomaly detection results are indicators for investigation and should not be treated as definitive proof of malicious activity.
+
+## 👨‍💻 Developer
 
 **Alwin0606**
 
 GitHub: https://github.com/Alwin0606
 
+## 📜 License
+
+This project is distributed under the MIT License. Refer to the repository's LICENSE file for details.
+
 ---
 
 <p align="center">
-  <strong>NETWORK-AI</strong><br/>
-  Intelligent Monitoring. Smarter Detection. Stronger Network Visibility.
+  <b>🛡️ NETWORK AI</b>
+  <br/>
+  <i>Intelligent Monitoring. Proactive Detection. Stronger Security.</i>
+  <br/><br/>
+  ⭐ If you find this project interesting, consider giving it a star!
 </p>
