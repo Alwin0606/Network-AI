@@ -2,7 +2,7 @@
 
 ### Intelligent Network Security & Threat Detection Platform
 
-<p align="center">
+<p align="center"
   <img src="https://img.shields.io/badge/AI-Powered-8A2BE2?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Cybersecurity-Intelligence-00BFFF?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Backend-FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
